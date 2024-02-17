@@ -20,7 +20,7 @@ export const action = async ({ request }) => {
   }
 };
 
-const Register = () => {
+export const Register = () => {
   return (
     <section className="h-screen grid place-items-center">
       <Form

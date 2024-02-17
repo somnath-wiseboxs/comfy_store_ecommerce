@@ -25,7 +25,7 @@ export const action =
     }
   };
 
-const Login = () => {
+export const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -48,7 +48,7 @@ const Login = () => {
     <section className="h-screen grid place-items-center">
       <Form
         method="post"
-        className="card w-96  p-8 bg-base-100 shadow-lg flex flex-col gap-y-4"
+        className="card w-96  p-8 bg-base-100 bg-gray-300	 shadow-lg flex flex-col gap-y-4"
       >
         <h4 className="text-center text-3xl font-bold">Login</h4>
         <FormInput type="email" label="email" name="identifier" />

@@ -4,7 +4,7 @@ import { clearCart } from "../features/cart/cartSlice";
 import { logoutUser } from "../features/user/userSlice";
 import { useQueryClient } from "@tanstack/react-query";
 
-const Header = () => {
+export const Header = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const queryClient = useQueryClient();
